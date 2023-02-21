@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ProfileFunctionality {
-	@Test
+	@Test(priority = 15)
 	public void profile() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

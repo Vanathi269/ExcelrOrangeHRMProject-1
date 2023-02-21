@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class verifyjobtitle {
-	@Test
+	@Test(priority = 8)
 	public void jobtitle() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

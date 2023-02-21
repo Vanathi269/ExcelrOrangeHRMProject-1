@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Qualification {
-	@Test
+	@Test(priority=7)
 	public void skill() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

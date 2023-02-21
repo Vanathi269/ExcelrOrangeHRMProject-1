@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LogoutFunctionality {
-	@Test
+	@Test(priority = 19)
 	public void logout() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

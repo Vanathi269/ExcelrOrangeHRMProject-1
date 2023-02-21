@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class verifyingloginpage {
-	@Test
+	@Test(priority = 1)
 	public void validatelogin() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

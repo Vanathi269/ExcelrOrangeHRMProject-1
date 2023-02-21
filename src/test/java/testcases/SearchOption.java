@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SearchOption {
-	@Test
+	@Test(priority = 14)
 	public void search() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

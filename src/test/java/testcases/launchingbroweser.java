@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class launchingbroweser {
-	@Test
+	@Test(priority = 0)
 	public void launchbrowser() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

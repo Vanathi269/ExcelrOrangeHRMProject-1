@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DashBoardPage {
-	@Test
+	@Test(priority = 9)
 	public void dashBoard() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

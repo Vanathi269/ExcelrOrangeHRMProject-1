@@ -1,145 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-21T08:36:42 IST" name="Suite" finished-at="2023-02-21T08:41:53 IST" duration-ms="310354">
+  <suite started-at="2023-02-21T20:02:05 IST" name="Default suite" finished-at="2023-02-21T20:02:43 IST" duration-ms="37990">
     <groups>
     </groups>
-    <test started-at="2023-02-21T08:36:42 IST" name="Test" finished-at="2023-02-21T08:37:51 IST" duration-ms="68830">
-      <class name="testcases.verifyingloginpage">
-        <test-method signature="validatelogin()[pri:0, instance:testcases.verifyingloginpage@6c80d78a]" started-at="2023-02-21T08:37:43 IST" name="validatelogin" finished-at="2023-02-21T08:37:51 IST" duration-ms="7809" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatelogin -->
-      </class> <!-- testcases.verifyingloginpage -->
-      <class name="testcases.validateincorrectdetails">
-        <test-method signature="validateLoginIncorrectDetails()[pri:0, instance:testcases.validateincorrectdetails@52e6fdee]" started-at="2023-02-21T08:37:30 IST" name="validateLoginIncorrectDetails" finished-at="2023-02-21T08:37:43 IST" duration-ms="13687" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginIncorrectDetails -->
-      </class> <!-- testcases.validateincorrectdetails -->
-      <class name="testcases.launchingbroweser">
-        <test-method signature="launchbrowser()[pri:0, instance:testcases.launchingbroweser@1afd44cb]" started-at="2023-02-21T08:36:42 IST" name="launchbrowser" finished-at="2023-02-21T08:37:30 IST" duration-ms="47291" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchbrowser -->
-      </class> <!-- testcases.launchingbroweser -->
-    </test> <!-- Test -->
-    <test started-at="2023-02-21T08:37:51 IST" name="PIM" finished-at="2023-02-21T08:38:16 IST" duration-ms="24981">
-      <class name="testcases.selectingrecordfromPIM">
-        <test-method signature="selectrecord()[pri:0, instance:testcases.selectingrecordfromPIM@4550bb58]" started-at="2023-02-21T08:38:03 IST" name="selectrecord" finished-at="2023-02-21T08:38:16 IST" duration-ms="13025" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectrecord -->
-      </class> <!-- testcases.selectingrecordfromPIM -->
-      <class name="testcases.PIM">
-        <test-method signature="verifyPIM()[pri:0, instance:testcases.PIM@6adbc9d]" started-at="2023-02-21T08:37:51 IST" name="verifyPIM" finished-at="2023-02-21T08:38:03 IST" duration-ms="11952" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPIM -->
-      </class> <!-- testcases.PIM -->
-    </test> <!-- PIM -->
-    <test started-at="2023-02-21T08:38:16 IST" name="Admin" finished-at="2023-02-21T08:39:16 IST" duration-ms="59421">
-      <class name="testcases.Qualification">
-        <test-method signature="skill()[pri:0, instance:testcases.Qualification@4f83df68]" started-at="2023-02-21T08:38:48 IST" name="skill" finished-at="2023-02-21T08:39:04 IST" duration-ms="15836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- skill -->
-      </class> <!-- testcases.Qualification -->
+    <test started-at="2023-02-21T20:02:05 IST" name="Default test" finished-at="2023-02-21T20:02:43 IST" duration-ms="37990">
       <class name="testcases.EditNationality">
-        <test-method signature="editNationanality()[pri:0, instance:testcases.EditNationality@747ddf94]" started-at="2023-02-21T08:38:16 IST" name="editNationanality" finished-at="2023-02-21T08:38:32 IST" duration-ms="15897" status="PASS">
+        <test-method signature="editNationanality()[pri:5, instance:testcases.EditNationality@6973b51b]" started-at="2023-02-21T20:02:05 IST" name="editNationanality" finished-at="2023-02-21T20:02:43 IST" duration-ms="37943" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class='oxd-icon bi-pencil-fill'])[4]"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d15783ca042ed70f3ce6ba2b752f861b, findElement {using=xpath, value=(//i[@class='oxd-icon bi-pencil-fill'])[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63953/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d15783ca042ed70f3ce6ba2b752f861b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class='oxd-icon bi-pencil-fill'])[4]"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d15783ca042ed70f3ce6ba2b752f861b, findElement {using=xpath, value=(//i[@class='oxd-icon bi-pencil-fill'])[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63953/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d15783ca042ed70f3ce6ba2b752f861b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at testcases.EditNationality.editNationanality(EditNationality.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editNationanality -->
       </class> <!-- testcases.EditNationality -->
-      <class name="testcases.NationalityDelete">
-        <test-method signature="nationalityDelete()[pri:0, instance:testcases.NationalityDelete@35e2d654]" started-at="2023-02-21T08:38:32 IST" name="nationalityDelete" finished-at="2023-02-21T08:38:48 IST" duration-ms="15679" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nationalityDelete -->
-      </class> <!-- testcases.NationalityDelete -->
-      <class name="testcases.verifyjobtitle">
-        <test-method signature="jobtitle()[pri:0, instance:testcases.verifyjobtitle@6cf0e0ba]" started-at="2023-02-21T08:39:04 IST" name="jobtitle" finished-at="2023-02-21T08:39:16 IST" duration-ms="12002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- jobtitle -->
-      </class> <!-- testcases.verifyjobtitle -->
-    </test> <!-- Admin -->
-    <test started-at="2023-02-21T08:39:16 IST" name="DashBoard" finished-at="2023-02-21T08:39:32 IST" duration-ms="16559">
-      <class name="testcases.DashBoardPage">
-        <test-method signature="dashBoard()[pri:0, instance:testcases.DashBoardPage@74f0ea28]" started-at="2023-02-21T08:39:16 IST" name="dashBoard" finished-at="2023-02-21T08:39:32 IST" duration-ms="16556" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dashBoard -->
-      </class> <!-- testcases.DashBoardPage -->
-    </test> <!-- DashBoard -->
-    <test started-at="2023-02-21T08:39:32 IST" name="Directory" finished-at="2023-02-21T08:40:09 IST" duration-ms="36596">
-      <class name="testcases.Directory">
-        <test-method signature="directoryVerify()[pri:0, instance:testcases.Directory@55b699ef]" started-at="2023-02-21T08:39:32 IST" name="directoryVerify" finished-at="2023-02-21T08:39:49 IST" duration-ms="16772" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- directoryVerify -->
-      </class> <!-- testcases.Directory -->
-      <class name="testcases.DirectoryVisibility">
-        <test-method signature="directoryDetail()[pri:0, instance:testcases.DirectoryVisibility@35d019a3]" started-at="2023-02-21T08:39:49 IST" name="directoryDetail" finished-at="2023-02-21T08:40:09 IST" duration-ms="19820" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- directoryDetail -->
-      </class> <!-- testcases.DirectoryVisibility -->
-    </test> <!-- Directory -->
-    <test started-at="2023-02-21T08:40:09 IST" name="leave" finished-at="2023-02-21T08:40:38 IST" duration-ms="28900">
-      <class name="testcases.Leave">
-        <test-method signature="leaveVisibility()[pri:0, instance:testcases.Leave@4135c3b]" started-at="2023-02-21T08:40:26 IST" name="leaveVisibility" finished-at="2023-02-21T08:40:38 IST" duration-ms="11901" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- leaveVisibility -->
-      </class> <!-- testcases.Leave -->
-      <class name="testcases.DeletingHoliday">
-        <test-method signature="deleteHoliday()[pri:0, instance:testcases.DeletingHoliday@2a65fe7c]" started-at="2023-02-21T08:40:09 IST" name="deleteHoliday" finished-at="2023-02-21T08:40:26 IST" duration-ms="16996" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteHoliday -->
-      </class> <!-- testcases.DeletingHoliday -->
-    </test> <!-- leave -->
-    <test started-at="2023-02-21T08:40:38 IST" name="search" finished-at="2023-02-21T08:40:49 IST" duration-ms="11504">
-      <class name="testcases.SearchOption">
-        <test-method signature="search()[pri:0, instance:testcases.SearchOption@459e9125]" started-at="2023-02-21T08:40:38 IST" name="search" finished-at="2023-02-21T08:40:49 IST" duration-ms="11501" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-      </class> <!-- testcases.SearchOption -->
-    </test> <!-- search -->
-    <test started-at="2023-02-21T08:40:49 IST" name="Profile" finished-at="2023-02-21T08:41:53 IST" duration-ms="63510">
-      <class name="testcases.PasswordChange">
-        <test-method signature="changePassword()[pri:0, instance:testcases.PasswordChange@4218d6a3]" started-at="2023-02-21T08:41:25 IST" name="changePassword" finished-at="2023-02-21T08:41:36 IST" duration-ms="10658" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changePassword -->
-      </class> <!-- testcases.PasswordChange -->
-      <class name="testcases.SupportFunctionality">
-        <test-method signature="support()[pri:0, instance:testcases.SupportFunctionality@235834f2]" started-at="2023-02-21T08:40:59 IST" name="support" finished-at="2023-02-21T08:41:12 IST" duration-ms="12925" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- support -->
-      </class> <!-- testcases.SupportFunctionality -->
-      <class name="testcases.ProfileFunctionality">
-        <test-method signature="profile()[pri:0, instance:testcases.ProfileFunctionality@5656be13]" started-at="2023-02-21T08:41:12 IST" name="profile" finished-at="2023-02-21T08:41:25 IST" duration-ms="12802" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- profile -->
-      </class> <!-- testcases.ProfileFunctionality -->
-      <class name="testcases.AboutFunctionalilty">
-        <test-method signature="About()[pri:0, instance:testcases.AboutFunctionalilty@3270d194]" started-at="2023-02-21T08:40:49 IST" name="About" finished-at="2023-02-21T08:40:59 IST" duration-ms="10240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- About -->
-      </class> <!-- testcases.AboutFunctionalilty -->
-      <class name="testcases.LogoutFunctionality">
-        <test-method signature="logout()[pri:0, instance:testcases.LogoutFunctionality@76505305]" started-at="2023-02-21T08:41:36 IST" name="logout" finished-at="2023-02-21T08:41:53 IST" duration-ms="16863" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- testcases.LogoutFunctionality -->
-    </test> <!-- Profile -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

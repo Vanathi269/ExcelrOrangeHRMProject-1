@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SupportFunctionality {
-	@Test
+	@Test(priority = 17)
 	public void support() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class AboutFunctionalilty {
-	@Test
+	@Test(priority = 16)
 	public void About() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

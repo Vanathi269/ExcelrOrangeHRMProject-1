@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Directory {
-	@Test
+	@Test(priority = 10)
 	public void directoryVerify() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

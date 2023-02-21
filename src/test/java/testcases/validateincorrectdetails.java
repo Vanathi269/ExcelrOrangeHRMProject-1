@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class validateincorrectdetails {
-	@Test
+	@Test(priority = 2)
 	public void validateLoginIncorrectDetails() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

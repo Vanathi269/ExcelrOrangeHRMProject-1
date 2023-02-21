@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class selectingrecordfromPIM {
-	@Test
+	@Test(priority = 4)
 	public void selectrecord() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

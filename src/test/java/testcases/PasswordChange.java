@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class PasswordChange {
-	@Test
+	@Test(priority = 18)
 	public void changePassword() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

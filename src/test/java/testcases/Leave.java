@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Leave {
-	@Test
+	@Test(priority = 12)
 	public void leaveVisibility() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

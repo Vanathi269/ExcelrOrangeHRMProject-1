@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class NationalityDelete {
-	@Test
+	@Test(priority = 6)
 	public void nationalityDelete() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class EditNationality {
 	
-@Test
+@Test(priority = 5)
 	public void editNationanality() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

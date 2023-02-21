@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DirectoryVisibility {
-	@Test
+	@Test(priority = 11)
 	public void directoryDetail() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-21T08:36:42 IST" name="Suite" finished-at="2023-02-21T08:41:53 IST" duration-ms="310354">
+    <groups>
+    </groups>
+    <test started-at="2023-02-21T08:36:42 IST" name="Test" finished-at="2023-02-21T08:37:51 IST" duration-ms="68830">
+      <class name="testcases.verifyingloginpage">
+        <test-method signature="validatelogin()[pri:0, instance:testcases.verifyingloginpage@6c80d78a]" started-at="2023-02-21T08:37:43 IST" name="validatelogin" finished-at="2023-02-21T08:37:51 IST" duration-ms="7809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogin -->
+      </class> <!-- testcases.verifyingloginpage -->
+      <class name="testcases.validateincorrectdetails">
+        <test-method signature="validateLoginIncorrectDetails()[pri:0, instance:testcases.validateincorrectdetails@52e6fdee]" started-at="2023-02-21T08:37:30 IST" name="validateLoginIncorrectDetails" finished-at="2023-02-21T08:37:43 IST" duration-ms="13687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginIncorrectDetails -->
+      </class> <!-- testcases.validateincorrectdetails -->
+      <class name="testcases.launchingbroweser">
+        <test-method signature="launchbrowser()[pri:0, instance:testcases.launchingbroweser@1afd44cb]" started-at="2023-02-21T08:36:42 IST" name="launchbrowser" finished-at="2023-02-21T08:37:30 IST" duration-ms="47291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+      </class> <!-- testcases.launchingbroweser -->
+    </test> <!-- Test -->
+    <test started-at="2023-02-21T08:37:51 IST" name="PIM" finished-at="2023-02-21T08:38:16 IST" duration-ms="24981">
+      <class name="testcases.selectingrecordfromPIM">
+        <test-method signature="selectrecord()[pri:0, instance:testcases.selectingrecordfromPIM@4550bb58]" started-at="2023-02-21T08:38:03 IST" name="selectrecord" finished-at="2023-02-21T08:38:16 IST" duration-ms="13025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectrecord -->
+      </class> <!-- testcases.selectingrecordfromPIM -->
+      <class name="testcases.PIM">
+        <test-method signature="verifyPIM()[pri:0, instance:testcases.PIM@6adbc9d]" started-at="2023-02-21T08:37:51 IST" name="verifyPIM" finished-at="2023-02-21T08:38:03 IST" duration-ms="11952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPIM -->
+      </class> <!-- testcases.PIM -->
+    </test> <!-- PIM -->
+    <test started-at="2023-02-21T08:38:16 IST" name="Admin" finished-at="2023-02-21T08:39:16 IST" duration-ms="59421">
+      <class name="testcases.Qualification">
+        <test-method signature="skill()[pri:0, instance:testcases.Qualification@4f83df68]" started-at="2023-02-21T08:38:48 IST" name="skill" finished-at="2023-02-21T08:39:04 IST" duration-ms="15836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skill -->
+      </class> <!-- testcases.Qualification -->
+      <class name="testcases.EditNationality">
+        <test-method signature="editNationanality()[pri:0, instance:testcases.EditNationality@747ddf94]" started-at="2023-02-21T08:38:16 IST" name="editNationanality" finished-at="2023-02-21T08:38:32 IST" duration-ms="15897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editNationanality -->
+      </class> <!-- testcases.EditNationality -->
+      <class name="testcases.NationalityDelete">
+        <test-method signature="nationalityDelete()[pri:0, instance:testcases.NationalityDelete@35e2d654]" started-at="2023-02-21T08:38:32 IST" name="nationalityDelete" finished-at="2023-02-21T08:38:48 IST" duration-ms="15679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nationalityDelete -->
+      </class> <!-- testcases.NationalityDelete -->
+      <class name="testcases.verifyjobtitle">
+        <test-method signature="jobtitle()[pri:0, instance:testcases.verifyjobtitle@6cf0e0ba]" started-at="2023-02-21T08:39:04 IST" name="jobtitle" finished-at="2023-02-21T08:39:16 IST" duration-ms="12002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobtitle -->
+      </class> <!-- testcases.verifyjobtitle -->
+    </test> <!-- Admin -->
+    <test started-at="2023-02-21T08:39:16 IST" name="DashBoard" finished-at="2023-02-21T08:39:32 IST" duration-ms="16559">
+      <class name="testcases.DashBoardPage">
+        <test-method signature="dashBoard()[pri:0, instance:testcases.DashBoardPage@74f0ea28]" started-at="2023-02-21T08:39:16 IST" name="dashBoard" finished-at="2023-02-21T08:39:32 IST" duration-ms="16556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashBoard -->
+      </class> <!-- testcases.DashBoardPage -->
+    </test> <!-- DashBoard -->
+    <test started-at="2023-02-21T08:39:32 IST" name="Directory" finished-at="2023-02-21T08:40:09 IST" duration-ms="36596">
+      <class name="testcases.Directory">
+        <test-method signature="directoryVerify()[pri:0, instance:testcases.Directory@55b699ef]" started-at="2023-02-21T08:39:32 IST" name="directoryVerify" finished-at="2023-02-21T08:39:49 IST" duration-ms="16772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- directoryVerify -->
+      </class> <!-- testcases.Directory -->
+      <class name="testcases.DirectoryVisibility">
+        <test-method signature="directoryDetail()[pri:0, instance:testcases.DirectoryVisibility@35d019a3]" started-at="2023-02-21T08:39:49 IST" name="directoryDetail" finished-at="2023-02-21T08:40:09 IST" duration-ms="19820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- directoryDetail -->
+      </class> <!-- testcases.DirectoryVisibility -->
+    </test> <!-- Directory -->
+    <test started-at="2023-02-21T08:40:09 IST" name="leave" finished-at="2023-02-21T08:40:38 IST" duration-ms="28900">
+      <class name="testcases.Leave">
+        <test-method signature="leaveVisibility()[pri:0, instance:testcases.Leave@4135c3b]" started-at="2023-02-21T08:40:26 IST" name="leaveVisibility" finished-at="2023-02-21T08:40:38 IST" duration-ms="11901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveVisibility -->
+      </class> <!-- testcases.Leave -->
+      <class name="testcases.DeletingHoliday">
+        <test-method signature="deleteHoliday()[pri:0, instance:testcases.DeletingHoliday@2a65fe7c]" started-at="2023-02-21T08:40:09 IST" name="deleteHoliday" finished-at="2023-02-21T08:40:26 IST" duration-ms="16996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteHoliday -->
+      </class> <!-- testcases.DeletingHoliday -->
+    </test> <!-- leave -->
+    <test started-at="2023-02-21T08:40:38 IST" name="search" finished-at="2023-02-21T08:40:49 IST" duration-ms="11504">
+      <class name="testcases.SearchOption">
+        <test-method signature="search()[pri:0, instance:testcases.SearchOption@459e9125]" started-at="2023-02-21T08:40:38 IST" name="search" finished-at="2023-02-21T08:40:49 IST" duration-ms="11501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- testcases.SearchOption -->
+    </test> <!-- search -->
+    <test started-at="2023-02-21T08:40:49 IST" name="Profile" finished-at="2023-02-21T08:41:53 IST" duration-ms="63510">
+      <class name="testcases.PasswordChange">
+        <test-method signature="changePassword()[pri:0, instance:testcases.PasswordChange@4218d6a3]" started-at="2023-02-21T08:41:25 IST" name="changePassword" finished-at="2023-02-21T08:41:36 IST" duration-ms="10658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+      </class> <!-- testcases.PasswordChange -->
+      <class name="testcases.SupportFunctionality">
+        <test-method signature="support()[pri:0, instance:testcases.SupportFunctionality@235834f2]" started-at="2023-02-21T08:40:59 IST" name="support" finished-at="2023-02-21T08:41:12 IST" duration-ms="12925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- support -->
+      </class> <!-- testcases.SupportFunctionality -->
+      <class name="testcases.ProfileFunctionality">
+        <test-method signature="profile()[pri:0, instance:testcases.ProfileFunctionality@5656be13]" started-at="2023-02-21T08:41:12 IST" name="profile" finished-at="2023-02-21T08:41:25 IST" duration-ms="12802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profile -->
+      </class> <!-- testcases.ProfileFunctionality -->
+      <class name="testcases.AboutFunctionalilty">
+        <test-method signature="About()[pri:0, instance:testcases.AboutFunctionalilty@3270d194]" started-at="2023-02-21T08:40:49 IST" name="About" finished-at="2023-02-21T08:40:59 IST" duration-ms="10240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About -->
+      </class> <!-- testcases.AboutFunctionalilty -->
+      <class name="testcases.LogoutFunctionality">
+        <test-method signature="logout()[pri:0, instance:testcases.LogoutFunctionality@76505305]" started-at="2023-02-21T08:41:36 IST" name="logout" finished-at="2023-02-21T08:41:53 IST" duration-ms="16863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testcases.LogoutFunctionality -->
+    </test> <!-- Profile -->
+  </suite> <!-- Suite -->
+</testng-results>

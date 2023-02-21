@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Admin\Desktop\ExcelrOrangeHRMProject-1\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">8 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.AboutFunctionalilty" class="method navigator-link" hash-for-method="About">About</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.PasswordChange" class="method navigator-link" hash-for-method="changePassword">changePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.DashBoardPage" class="method navigator-link" hash-for-method="dashBoard">dashBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.DeletingHoliday" class="method navigator-link" hash-for-method="deleteHoliday">deleteHoliday</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.DirectoryVisibility" class="method navigator-link" hash-for-method="directoryDetail">directoryDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.Directory" class="method navigator-link" hash-for-method="directoryVerify">directoryVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.EditNationality" class="method navigator-link" hash-for-method="editNationanality">editNationanality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.verifyjobtitle" class="method navigator-link" hash-for-method="jobtitle">jobtitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.launchingbroweser" class="method navigator-link" hash-for-method="launchbrowser">launchbrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.Leave" class="method navigator-link" hash-for-method="leaveVisibility">leaveVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LogoutFunctionality" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.NationalityDelete" class="method navigator-link" hash-for-method="nationalityDelete">nationalityDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ProfileFunctionality" class="method navigator-link" hash-for-method="profile">profile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.SearchOption" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.selectingrecordfromPIM" class="method navigator-link" hash-for-method="selectrecord">selectrecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.Qualification" class="method navigator-link" hash-for-method="skill">skill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.SupportFunctionality" class="method navigator-link" hash-for-method="support">support</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.validateincorrectdetails" class="method navigator-link" hash-for-method="validateLoginIncorrectDetails">validateLoginIncorrectDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.verifyingloginpage" class="method navigator-link" hash-for-method="validatelogin">validatelogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.PIM" class="method navigator-link" hash-for-method="verifyPIM">verifyPIM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Qualification</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="skill">
+                  </a> <!-- skill -->
+                  <span class="method-name">skill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.NationalityDelete</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="nationalityDelete">
+                  </a> <!-- nationalityDelete -->
+                  <span class="method-name">nationalityDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PasswordChange</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePassword">
+                  </a> <!-- changePassword -->
+                  <span class="method-name">changePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.launchingbroweser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchbrowser">
+                  </a> <!-- launchbrowser -->
+                  <span class="method-name">launchbrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.DashBoardPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashBoard">
+                  </a> <!-- dashBoard -->
+                  <span class="method-name">dashBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.verifyjobtitle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="jobtitle">
+                  </a> <!-- jobtitle -->
+                  <span class="method-name">jobtitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.verifyingloginpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatelogin">
+                  </a> <!-- validatelogin -->
+                  <span class="method-name">validatelogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.ProfileFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="profile">
+                  </a> <!-- profile -->
+                  <span class="method-name">profile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.LogoutFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Directory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="directoryVerify">
+                  </a> <!-- directoryVerify -->
+                  <span class="method-name">directoryVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.DirectoryVisibility</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="directoryDetail">
+                  </a> <!-- directoryDetail -->
+                  <span class="method-name">directoryDetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.SearchOption</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.SupportFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="support">
+                  </a> <!-- support -->
+                  <span class="method-name">support</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Leave</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="leaveVisibility">
+                  </a> <!-- leaveVisibility -->
+                  <span class="method-name">leaveVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.AboutFunctionalilty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="About">
+                  </a> <!-- About -->
+                  <span class="method-name">About</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.EditNationality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editNationanality">
+                  </a> <!-- editNationanality -->
+                  <span class="method-name">editNationanality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.selectingrecordfromPIM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectrecord">
+                  </a> <!-- selectrecord -->
+                  <span class="method-name">selectrecord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PIM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPIM">
+                  </a> <!-- verifyPIM -->
+                  <span class="method-name">verifyPIM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.validateincorrectdetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginIncorrectDetails">
+                  </a> <!-- validateLoginIncorrectDetails -->
+                  <span class="method-name">validateLoginIncorrectDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.DeletingHoliday</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteHoliday">
+                  </a> <!-- deleteHoliday -->
+                  <span class="method-name">deleteHoliday</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\Desktop\ExcelrOrangeHRMProject-1\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;methods&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.launchingbroweser&quot;/&gt;
+      &lt;class name=&quot;testcases.validateincorrectdetails&quot;/&gt;
+      &lt;class name=&quot;testcases.verifyingloginpage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;PIM&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.PIM&quot;/&gt;
+      &lt;class name=&quot;testcases.selectingrecordfromPIM&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PIM --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;Admin&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.EditNationality&quot;/&gt;
+      &lt;class name=&quot;testcases.NationalityDelete&quot;/&gt;
+      &lt;class name=&quot;testcases.Qualification&quot;/&gt;
+      &lt;class name=&quot;testcases.verifyjobtitle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Admin --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;DashBoard&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.DashBoardPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DashBoard --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;Directory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.Directory&quot;/&gt;
+      &lt;class name=&quot;testcases.DirectoryVisibility&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Directory --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;leave&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.DeletingHoliday&quot;/&gt;
+      &lt;class name=&quot;testcases.Leave&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- leave --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;search&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.SearchOption&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- search --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;Profile&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.AboutFunctionalilty&quot;/&gt;
+      &lt;class name=&quot;testcases.SupportFunctionality&quot;/&gt;
+      &lt;class name=&quot;testcases.ProfileFunctionality&quot;/&gt;
+      &lt;class name=&quot;testcases.PasswordChange&quot;/&gt;
+      &lt;class name=&quot;testcases.LogoutFunctionality&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Profile --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">PIM (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Admin (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">DashBoard (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Directory (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">leave (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">search (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Profile (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'launchbrowser')
+data.setCell(0, 2, 'testcases.launchingbroweser')
+data.setCell(0, 3, 47291);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'directoryDetail')
+data.setCell(1, 2, 'testcases.DirectoryVisibility')
+data.setCell(1, 3, 19820);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deleteHoliday')
+data.setCell(2, 2, 'testcases.DeletingHoliday')
+data.setCell(2, 3, 16996);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logout')
+data.setCell(3, 2, 'testcases.LogoutFunctionality')
+data.setCell(3, 3, 16863);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'directoryVerify')
+data.setCell(4, 2, 'testcases.Directory')
+data.setCell(4, 3, 16772);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dashBoard')
+data.setCell(5, 2, 'testcases.DashBoardPage')
+data.setCell(5, 3, 16556);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'editNationanality')
+data.setCell(6, 2, 'testcases.EditNationality')
+data.setCell(6, 3, 15897);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'skill')
+data.setCell(7, 2, 'testcases.Qualification')
+data.setCell(7, 3, 15836);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'nationalityDelete')
+data.setCell(8, 2, 'testcases.NationalityDelete')
+data.setCell(8, 3, 15679);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateLoginIncorrectDetails')
+data.setCell(9, 2, 'testcases.validateincorrectdetails')
+data.setCell(9, 3, 13687);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'selectrecord')
+data.setCell(10, 2, 'testcases.selectingrecordfromPIM')
+data.setCell(10, 3, 13025);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'support')
+data.setCell(11, 2, 'testcases.SupportFunctionality')
+data.setCell(11, 3, 12925);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'profile')
+data.setCell(12, 2, 'testcases.ProfileFunctionality')
+data.setCell(12, 3, 12802);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'jobtitle')
+data.setCell(13, 2, 'testcases.verifyjobtitle')
+data.setCell(13, 3, 12002);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyPIM')
+data.setCell(14, 2, 'testcases.PIM')
+data.setCell(14, 3, 11952);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'leaveVisibility')
+data.setCell(15, 2, 'testcases.Leave')
+data.setCell(15, 3, 11901);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'search')
+data.setCell(16, 2, 'testcases.SearchOption')
+data.setCell(16, 3, 11501);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'changePassword')
+data.setCell(17, 2, 'testcases.PasswordChange')
+data.setCell(17, 3, 10658);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'About')
+data.setCell(18, 2, 'testcases.AboutFunctionalilty')
+data.setCell(18, 3, 10240);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validatelogin')
+data.setCell(19, 2, 'testcases.verifyingloginpage')
+data.setCell(19, 3, 7809);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.launchingbroweser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.validateincorrectdetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateLoginIncorrectDetails</span>
+                <span class="method-start">47296 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.verifyingloginpage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatelogin</span>
+                <span class="method-start">60987 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PIM</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyPIM</span>
+                <span class="method-start">68825 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.selectingrecordfromPIM</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectrecord</span>
+                <span class="method-start">80778 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.EditNationality</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">editNationanality</span>
+                <span class="method-start">93810 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.NationalityDelete</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">nationalityDelete</span>
+                <span class="method-start">109708 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Qualification</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">skill</span>
+                <span class="method-start">125388 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.verifyjobtitle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">jobtitle</span>
+                <span class="method-start">141226 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DashBoardPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dashBoard</span>
+                <span class="method-start">153235 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Directory</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">directoryVerify</span>
+                <span class="method-start">169799 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DirectoryVisibility</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">directoryDetail</span>
+                <span class="method-start">186572 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DeletingHoliday</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteHoliday</span>
+                <span class="method-start">206398 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Leave</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">leaveVisibility</span>
+                <span class="method-start">223395 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.SearchOption</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">235303 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.AboutFunctionalilty</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">About</span>
+                <span class="method-start">246813 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.SupportFunctionality</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">support</span>
+                <span class="method-start">257065 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ProfileFunctionality</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">profile</span>
+                <span class="method-start">269991 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PasswordChange</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">changePassword</span>
+                <span class="method-start">282794 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LogoutFunctionality</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">293455 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
